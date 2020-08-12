@@ -1,10 +1,14 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .portfolio_content{
   margin-top: 5%;
   margin-left: 25%;
   margin-right: 25%;
-
+  text-align: justify;
 }
-.contact{
+/* .contact{
   border-style: solid;
   border-width: 3px;
   border-color: red;
@@ -12,9 +16,21 @@
    margin-bottom: 3%;
    text-align: center;
    border-radius: 10px;
-}
+} */
 .header_section{
   display: flex;
   flex-flow: row;
-  max-width: 800px;
+  /* max-width: 800px; */
+}
+.icon{
+  max-width: 30px;
+  max-height: 30px;
+}
+.profile{
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+.contact_details{
+  margin-left: 2%;
 }
