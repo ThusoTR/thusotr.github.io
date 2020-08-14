@@ -4,8 +4,8 @@ body{
 }
 
 .portfolio_content{
-  margin-top: 5%;
-  margin-bottom:5%;
+  margin-top: 2%;
+  margin-bottom:2%;
   /* margin-left: 25%;
   margin-right: 25%; */
   max-width: 1000px;
@@ -38,9 +38,12 @@ body{
   max-height: 30px;
 }
 .profile{
-  max-width: 200px;
-  max-height: 200px;
-  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .contact_details{
   margin-left: 2%;
@@ -64,4 +67,38 @@ body{
 .project_image{
   max-width: 400px;
   max-height: 400px;
+}
+.proj_descrip{
+  text-align: justify;
+}
+.center_content{
+  text-align: center;
+}
+.inner_contact_details{
+  display: none;
+}
+@media (max-device-width: 600px){
+
+  .portfolio_content{
+    max-width: 98%;
+  }
+  .my_skills_technologies{
+    margin-left: 0;
+    margin-right: 0;
+
+ }
+ .header_section{
+   display: flex;
+   flex-flow: row;
+   flex-wrap: wrap-reverse;
+ }
+ .contact_details
+ {
+   display: none;
+ }
+ .inner_contact_details{
+   margin-left: 25%;
+   margin-right: 25%;
+   display: block;
+ }
 }

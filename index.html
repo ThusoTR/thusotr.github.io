@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -15,10 +16,24 @@
   <div class="portfolio_content">
     <div class="header_section">
     <div class="self_description">
-      <h1>Thuso Tshishonga</h1>
-      <h3>Electrical Engineer and Self-Taught Developer</h3>
+      <h1 class="center_content">Thuso Tshishonga</h1>
+      <h3 class="center_content">Electrical Engineer and Self-Taught Developer</h3>
+      <div class="inner_contact_details">
+        <div >
+          <img class="profile" src="profile.jpg" alt="">
+        </div>
+       <br>
+       <a class="btn btn-outline-info btn-block" href="mailto:tshishongatr@gmail.com?&">
+      <img class="icon" src="email.png" alt=""> Email</a><br>
 
-      <h5>Hi, I'm Thuso Tshishonga, nice to meet you and welcome to portfolio website. </h5>
+      <a class="btn btn-outline-info btn-block" target="_blank" href="https://linkedin.com/in/thuso-tshishonga-077723115">
+      <img class="icon" src="icons8-linkedin-48.png" alt="">LinkedIn</a><br>
+
+      <a class="btn btn-outline-info btn-block" href="#">
+      <img class="icon" src="CV.png" alt=""> My CV</a><br>
+
+      </div>
+      <h5 class="center_content">Hi, I'm Thuso Tshishonga, nice to meet you and welcome to portfolio website. </h5>
       <br>
       <p>I am an electrical engineer and a self taught software developer. This poftfolio focuses presenting my
       software development skills. I graduated with degree in electrical engineering in 2018. My electrical engineering degree included courses in
@@ -28,18 +43,18 @@
   learned to use technologies such as HTML, Javascript, and Django. </p>
     </div>
 
-    <div class="contact_details">
+    <div class="contact_details center_content">
       <div >
-        <img class="profile" src="corinne-kutz-T3ZHwSNlKkw-unsplash.jpg" alt="">
+        <img class="profile" src="profile.jpg" alt="">
       </div>
      <br>
-     <a class="btn btn-outline-info btn-lg btn-block" href="mailto:tshishongatr@gmail.com?&">
+     <a class="btn btn-outline-info btn-block" href="mailto:tshishongatr@gmail.com?&">
     <img class="icon" src="email.png" alt=""> Email</a><br>
 
-    <a class="btn btn-outline-info btn-lg btn-block" href="https://linkedin.com/in/thuso-tshishonga-077723115">
+    <a class="btn btn-outline-info btn-block" target="_blank" href="https://linkedin.com/in/thuso-tshishonga-077723115">
     <img class="icon" src="icons8-linkedin-48.png" alt="">LinkedIn</a><br>
 
-    <a class="btn btn-outline-info btn-lg btn-block" href="#">
+    <a class="btn btn-outline-info btn-block" href="#">
     <img class="icon" src="CV.png" alt=""> My CV</a><br>
 
     </div>
@@ -47,7 +62,7 @@
   <div class="my_skills_technologies">
     <div class="skills">
       <img src="icons8-development-skill-64.png" alt="">
-      <h5>Skills:</h5>
+      <h5>Software Programming Skills:</h5>
       <br>
       Software design and development
       <br>
@@ -60,7 +75,7 @@
     <br>
     <div class="skills">
       <img src="icons8-source-code-64.png" alt="">
-      <h5>My programming Languages:</h5>
+      <h5>My Programming Languages:</h5>
       <br>
       C++
       <br>
@@ -77,7 +92,7 @@
     <br>
     <div class="skills">
       <img src="icons8-programming-64.png" alt="">
-      <h5>Web development technologies I use:</h5>
+      <h5>Web Development Technologies I Use:</h5>
       <br>
       HTML
       <br>
@@ -85,7 +100,7 @@
       <br>
       Bootstrap
       <br>
-      JQueary
+      jQuery
       <br>
       Django
     </div>
@@ -93,7 +108,7 @@
     <div class="skills">
       <img src="icons8-maintenance-64.png" alt="">
 
-      <h5>My dev tools:</h5>
+      <h5>My Dev Dools:</h5>
       <br>
       Atom Editor
       <br>
@@ -113,10 +128,18 @@
     </div>
     <br>
     <div class="skills">
-      <h5>SA Stats Visualizor Project</h5>
+      <img src="icons8-project-management-64.png" alt="">
+
+      <h5>SA Stats Visualizer Project</h5>
       <br>
-      <img class="project_image" src="project_home.PNG" alt="">
-      <a class="btn btn-outline-info btn-lg btn-block" href="#"> Visit website</a><br>
+      <div class="proj_descrip">
+        In this project, I developed a Django web application which provides an iteractive map of South Africa where a user can
+        click on a South African province and view it's overall statistics on a panel. The user can also
+        to web pages that provide statistics plots of South Africa and for specific South African provinces.
+        The plots were generated from data publised by Stats SA. The data was analyses using Python Pandas.
+      </div>
+      <br>
+      <a class="btn btn-outline-info" target="_blank" href="http://thuso.pythonanywhere.com/"> Visit Website</a><br>
     </div>
     <br>
     <div class="skills">
@@ -124,11 +147,11 @@
 
       <h5>Contact Details:</h5>
       <br>
-      Email: tshishongatr@gmail.com
+      <strong>Email: </strong> tshishongatr@gmail.com
       <br>
       <a href="https://linkedin.com/in/thuso-tshishonga-077723115">LinkedIn profile</a>
       <br>
-      Cell: +27 67 030 2752
+      <strong>Cell: </strong>+27 67 030 2752
     </div>
   </div>
 
