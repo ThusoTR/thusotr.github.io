@@ -8,8 +8,8 @@ body{
   margin-bottom:2%;
   /* margin-left: 25%;
   margin-right: 25%; */
-  max-width: 1000px;
-  text-align: justify;
+  max-width: 900px;
+  text-align: left;
 }
 .self_description, .contact_details, .portfolio_content
 {
@@ -51,7 +51,6 @@ body{
  .my_skills_technologies{
    margin-left: 25%;
    margin-right: 25%;
-
 }
 .skills, .carousel{
     display: inline-block;
@@ -78,14 +77,12 @@ body{
   display: none;
 }
 @media (max-device-width: 600px){
-
   .portfolio_content{
     max-width: 98%;
   }
   .my_skills_technologies{
     margin-left: 0;
     margin-right: 0;
-
  }
  .header_section{
    display: flex;
